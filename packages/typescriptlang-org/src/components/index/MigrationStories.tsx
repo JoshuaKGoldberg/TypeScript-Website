@@ -338,10 +338,10 @@ export const MigrationStories = () => {
   return (
     <div id="m-stories">
       <div className="controls">
-        <a href="#m-stories" className="button left" onClick={prev} aria-label="prev">
+        <a href="#m-stories" className="button left split-row" onClick={prev} aria-label="prev">
           <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 0.5L10.5 14.5L5.68248e-07 8L10.5 0.5Z" fill="#08446E" /></svg>
         </a>
-        <a href="#m-stories" className="button right" onClick={next} aria-label="next">
+        <a href="#m-stories" className="button right split-row" onClick={next} aria-label="next">
           <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 14.5V0.5L10.5 7L0 14.5Z" fill="#08446E" /></svg>
         </a>
       </div>
